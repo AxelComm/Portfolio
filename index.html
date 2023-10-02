@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.156.1/three.min.js" integrity="sha512-V9mpjsMwBSamMZSFBEbQL+ft1be7xPMU3t27EaGdDE9ctlBSTWJyAW+jKBPUkJYf7YyOWLXpLGwttdoiEv1hrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Commerly Axel</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                Commerly Axel
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                <a id="connaissance" class="navbar-item menu">
+                    Mes Connaissances
+                </a>
+                
+                <a class="navbar-item menu" id="projet">
+                    Mes Projets
+                </a>
+
+                <a class="navbar-item menu" id="propos">
+                    A Propos
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a href="https://www.linkedin.com/in/axel-commerly-33a374282/" class="navbar-item ">
+                    <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+                </a>
+                
+                <a href="https://github.com/AxelComm" class="navbar-item ">
+                    <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+            <div class="columns is-desktop is-centered header">
+            <div class="column is-two-fifths hauttitre">
+                <h1>Developpeur Full-Stack</h1>
+                <p>Je suis un développeur Full Stack passionné par la création d'applications web innovantes et performantes. Mon parcours professionnel m'a permis d'acquérir une expertise à la fois dans le développement frontend et backend, ce qui me permet de concevoir des solutions complètes</p>
+                <div class="buttons">
+                    <a href="mailto:commerly.axel@outlook.fr"><button class="contact">Me Contacter</button></a>
+                    <a href="medias/cv/CV_2023-10-02_Axel_Commerly.pdf"><button class="cv">CV</button></a>
+                </div>
+            </div>
+            <div class="column is-one-third haut">
+                <div id="scene-container"></div>
+            </div>
+        </div>
+        <div class="image" 
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <img class="code" src="medias/img/carbon (26).png" alt="">
+        </div>
+
+        
+            <div class="columns is-desktop is-centered cards" id="connaissanceCible">
+                    <div class="column is-one-quarter card">
+                        <div class=" has-text-centered">
+                            <img src="medias/img/bulma.svg" width="40px" alt="">
+                            <img src="medias/img/react (1).svg" width="60px" alt="">
+                            <img src="medias/img/sass (1).svg" width="70px" alt="">
+                        </div>
+                        <h2 class="is-size-2 has-text-centered">Developpement front-end</h2>
+                        <p>Pour mes projets frontend, j'adopte une approche diversifiée en utilisant différents frameworks et bibliothèques.Cette approche me permet de tirer parti des avantages spécifiques de chaque outil pour répondre aux besoins uniques de chaque projet.</p>
+                        <h5>Language maitrisé :</h5>
+                        <h6>HTML, CSS, JS</h6>
+                        <ul>Outil de Developpement:
+                            <li>React JS</li>
+                            <li>Sass</li>
+                            <li>Bulma</li>
+                        </ul>
+                    </div>
+                    <div class="column is-one-quarter card">
+                        <div class=" has-text-centered">
+                            <img src="medias/img/nextjs-icon.svg" width="60px" alt="">
+                            <img src="medias/img/symfony (1).svg" width="60px" alt="">
+                        </div>
+                        <h2 class="is-size-2 has-text-centered">Developpement back-end</h2>
+                        <p class="is-size-4">Dans le domaine du backend, j'adopte une approche pragmatique en utilisant une variété de frameworks et de bibliothèques pour garantir la fiabilité et la performance de mes applications. Cette flexibilité me permet de développer des systèmes robustes, évolutifs et sécurisés. </p>
+                        <h5>Language maitrisé :</h5>
+                        <h6>PhP, SQL</h6>
+                        <ul>Outil de Developpement:
+                            <li>Symfony</li>
+                            <li>Next JS</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="column is-one-quarter card">
+                        <div class=" has-text-centered">
+                            <img src="medias/img/github-icon.svg" width="60px" alt="">
+                            <img src="medias/img/docker-icon.svg" width="60px" alt="">
+                        </div>
+                        <h2 class="is-size-2 has-text-centered">Technologies et outils</h2>
+                        <p class="is-size-4">Lors de la gestion de mes projets, j'exploite une palette variée d'outils tels que Docker, Git Hub et Figma pour optimiser les différentes phases du développement.Ces outils sont des piliers essentiels de mon approche pour offrir des solutions technologiques de pointe.</p>
+                        <h5>Language maitrisé :</h5>
+                        <h6>Git , Docker</h6>
+                        <ul>Outil de Developpement:
+                            <li>Dockerfile</li>
+                            <li>Bash</li>
+                            <li>Git Copilote</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+        
+
+
+<div class="ContainProjet" id="projetCible">
+                <h1>Mes Projets</h1>
+                <p>Une partie de mes projets peronnels et professionels</p>
+            <div class="columns is-desktop is-centered projets" >
+                <div class="column  is-two-fifths">
+                    <a href="https://blog.emandarine.net/">
+                    <img class="img" src="medias/img/imageBlog.png" alt="">
+                </a>
+                </div>
+                <div class="column is-two-fifths  boxProjet">
+                    <div class="card_item">
+                        <a href="https://blog.emandarine.net/" class="Card_link">
+                        <div class="Card_bg"></div>
+                        <div class="Card_title">
+                            Agence Web emandarine
+                        </div>
+                        <div class="Card_p">
+                            Lors d'un stage, j'ai eu l'opportunité de créer un site web dédié au référencement de tous les outils essentiels utilisés par les développeurs. Ce projet m'a permis de combiner mes compétences en développement web avec ma passion pour la technologie, et il a abouti à la création d'une ressource précieuse pour la communauté des développeurs.
+                        </div>
+                        <div class="Card_box">
+                            <span class="Card_date">
+                            07.2023
+                            </span>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+<div class="columns is-desktop is-centered projets">
+    <div class="column  is-two-fifths">
+        <a href="https://grand-sprite-a18452.netlify.app">
+            <img class="img" src="medias/img/Mes Projet (10).png" alt="">
+        </a>
+    </div>
+    <div class="column is-two-fifths boxProjet">
+        <div class="card_item">
+            <a href="https://grand-sprite-a18452.netlify.app" class="Card_link">
+            <div class="Card_bg"></div>
+            <div class="Card_title">
+                Wolves lutta livre
+            </div>
+            <div class="Card_p">
+                J'ai eu l'opportunité de créer un site web dédié à un club de Luta Livre situé à Poitiers. Cette expérience a été enrichissante et m'a permis de découvrir Tailwind CSS.
+            </div>
+            <div class="Card_box">
+                <span class="Card_date">
+                08.2023
+                </span>
+            </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="columns is-desktop is-centered projets">
+    <div class="column  is-two-fifths">
+        <a href="https://keen-sprite-d9ccea.netlify.app">
+            <img class="img" src="medias/img/Mes Projet (11).png" alt="">
+        </a>
+    </div>
+    
+    <div class="column is-two-fifths boxProjet">
+        <div class="card_item">
+            <a href="https://keen-sprite-d9ccea.netlify.app" class="Card_link">
+            <div class="Card_bg"></div>
+            <div class="Card_title">
+                Jeu Javascript
+            </div>
+            <div class="Card_p">
+                Après avoir suivi des cours de JavaScript, je me suis lancé le défi de créer un jeu "Guess My Number". J'ai réalisé ce projet en utilisant HTML, CSS et JavaScript.
+            </div>
+            <div class="Card_box">
+                <span class="Card_date">
+                08.2023
+                </span>
+            </div>
+            </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+
+
+
+    <div class="aPropos" id="proposCible">
+        <h2>De l'Armée au Monde du Code : Mon Parcours de Reconversion</h2>
+        <p>
+            Pendant six ans, j'ai porté fièrement l'uniforme, une période qui a forgé mon caractère et ma détermination. J'ai vécu l'aventure, l'engagement et la camaraderie au quotidien, et j'ai acquis des compétences essentielles, notamment la discipline, le leadership et la résilience.</p>
+
+            <p>Cependant, un nouveau défi m'attendait. J'ai entrepris une transition professionnelle vers le monde du développement web, une décision qui a été stimulante et gratifiante. Passer de l'uniforme au clavier a été un voyage fascinant.</p>
+
+            <p>En tant que développeur web, je peux toujours mettre à profit les valeurs et les compétences que j'ai acquises au sein de l'armée. La discipline nécessaire pour résoudre des problèmes complexes, le sens de la mission pour atteindre des objectifs et la capacité à travailler en équipe sont des atouts précieux dans le développement de logiciels.</p>
+
+            <p>Cette transition m'a également permis d'explorer ma passion pour la technologie, d'apprendre des languages de programmation, de développer des applications innovantes et de contribuer à des projets significatifs.</p>
+
+            <p>Aujourd'hui, je suis fier de mon parcours de reconversion, et j'aborde chaque défi en tant que développeur web avec la même détermination et le même dévouement qui ont caractérisé ma carrière militaire. Mon passé et mon présent se rejoignent pour me guider vers un avenir prometteur dans le monde fascinant du développement web.
+        </p>
+</div>
+
+
+    <footer class="footer">
+        <div class="columns">
+        <div class="column has-text-centered">
+            <p>Contact :</p>
+            <br>
+            <a class="footer-item" href="mailto:commerly.axel@outlook.fr">Me contacter</a>
+            <br>
+            <a class="footer-item" href="">Mon CV</a>
+        </div>
+        <div class="column has-text-centered">
+            <p>Navigation :</p>
+            <br>
+            <a class="footer-item" id="connaissanceFooter">
+                Mes Connaissances
+            </a>
+            <br>
+            <a class="footer-item" id="projetFooter">
+                Mes Projets
+            </a>
+            <br>
+            <a class="footer-item" id="proposFooter">
+                A Propos
+            </a>
+        </div>
+        <div class="column has-text-centered">
+            <p>Reseaux :</p>
+            <br>
+            <a href="https://www.linkedin.com/in/axel-commerly-33a374282/" class="footerReasaux">
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://github.com/AxelComm" class="footerReasaux">
+                <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+            </a>
+        </div>
+        </div>
+        <h3 class="has-text-centered">Commerly Axel | 2023</h3>
+    </footer>
+    
+            <script>
+                AOS.init();
+            </script>
+</body>
+</html>
